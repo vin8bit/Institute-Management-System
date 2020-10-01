@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Main extends JFrame implements ActionListener{
 
-		JMenuBar m;
+	JMenuBar m;
 	JMenu file,staff,student,course,about;
 	JMenuItem st1,st2,st3,st4,st5,st6,st7;
 	JMenuItem s1,s2,s3,s4,s5,s6,s7;
@@ -13,7 +13,6 @@ public class Main extends JFrame implements ActionListener{
 	JToolBar tbar;
 	JButton t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12;
 		public Main(){
-	
 			setSize(1000,700);
 			setTitle("INSTITUTE MANAGEMENT SYSTEM");
 			setIconImage(new ImageIcon("logo.png").getImage());
@@ -157,9 +156,7 @@ public class Main extends JFrame implements ActionListener{
 			add(main,BorderLayout.CENTER);
 			setLocationRelativeTo(null);
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			setVisible(true);
-			
-	
+			setVisible(true);	
 		}
 
 	public void actionPerformed(ActionEvent e){
@@ -183,7 +180,6 @@ public class Main extends JFrame implements ActionListener{
 		{  
 			new SalaryRecord();	
 		}
-
 
 
 		if(e.getSource()==st1||e.getSource()==t6)
@@ -220,7 +216,6 @@ public class Main extends JFrame implements ActionListener{
 			new CourseRecord();	
 		}
 
-
 		if(e.getSource()==f1)
 		{  
 			dispose();
@@ -236,8 +231,7 @@ public class Main extends JFrame implements ActionListener{
 		}
 	}
 
-	public static void main(String []args){
-		
+	public static void main(String []args){	
 		new Main();
 	}
 
