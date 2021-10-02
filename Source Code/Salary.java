@@ -44,7 +44,7 @@ public class Salary extends JFrame implements ActionListener {
 
 			//Label
 
-			JLabel toplabel = new JLabel("Pay Salary form");
+			JLabel toplabel = new JLabel("Pay Salary Form");
 			Font font = new Font("Rosewood Std",Font.BOLD,33);
 			toplabel.setFont(font);
 			toplabel.setBounds(280,20,300,40);
@@ -189,7 +189,7 @@ public class Salary extends JFrame implements ActionListener {
 							}
 						catch(Exception ee){JOptionPane.showMessageDialog(this,ee,"error",JOptionPane.ERROR_MESSAGE);}	
 						}
-							else{ JOptionPane.showMessageDialog(this,"Invalid amount","Error",JOptionPane.ERROR_MESSAGE);}					
+							else{ JOptionPane.showMessageDialog(this,"Invalid Amount","Error",JOptionPane.ERROR_MESSAGE);}					
 						       
 					
 
