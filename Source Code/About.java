@@ -8,7 +8,7 @@ public class About
 	{
 		jd= new JDialog(m);
 		jd.setSize(550,500);
-		jd.setTitle("AboutIMS");
+		jd.setTitle("About Institute-Management-System");
 		jd.setIconImage(new ImageIcon("image/logo.png").getImage());
 		jd.setLocationRelativeTo(null);
 		jd.setLayout(null);
