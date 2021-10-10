@@ -77,7 +77,7 @@ public class Admission extends JFrame implements ActionListener {
 			l13.setBounds(430,120,100,20);
 			l14 = new JLabel("Nationality:");
 			l14.setBounds(430,150,100,20);
-			l15 = new JLabel("Identification mark:");
+			l15 = new JLabel("Identification mark : ");
 			l15.setBounds(430,180,130,20);
 			l16 = new JLabel("Password:");
 			l16.setBounds(430,210,100,20);
