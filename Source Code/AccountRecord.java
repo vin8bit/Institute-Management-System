@@ -73,7 +73,7 @@ public class AccountRecord extends JFrame implements ActionListener
 		
 				
 		JLabel l1=new JLabel("Fees Record");
-		Font font=new Font("Lucida Sans Typewriter",Font.BOLD,25);
+		Font font=new Font("Cambria Math",Font.BOLD,25);
 		l1.setFont(font);
 		p2.add(l1);
 		tf1= new JTextField(10);
