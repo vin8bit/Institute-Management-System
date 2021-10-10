@@ -388,7 +388,7 @@ public class Admission extends JFrame implements ActionListener {
 							con.close();
 
 							}
-						catch(Exception ee){JOptionPane.showMessageDialog(this,ee,"error",JOptionPane.ERROR_MESSAGE);}
+						catch(Exception ee){JOptionPane.showMessageDialog(this,ee,"Error",JOptionPane.ERROR_MESSAGE);}
 							}
 						else { 
 								if(ph==1){JOptionPane.showMessageDialog(this,"Invalid Phone No","Error",JOptionPane.ERROR_MESSAGE);} 
