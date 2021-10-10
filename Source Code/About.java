@@ -17,7 +17,7 @@ public class About
 		p.setBackground(new Color(192,192,192));
 		p.setLayout(null);
 		jd.add(p);
-		JLabel l1= new JLabel("Make by AVSK Developers");
+		JLabel l1= new JLabel("Made by VIN");
 		l1.setBounds(150,350,550,30);
 		l1.setForeground(Color.green);
 		JLabel l2= new JLabel("");
