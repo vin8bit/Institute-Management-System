@@ -29,7 +29,7 @@ public class About
 		JLabel l4= new JLabel("Any college project relatives solutions comment now.");
 		l4.setBounds(2,150,550,30);
 		l4.setForeground(Color.blue);
-		JLabel l5= new JLabel("Note : This project is very simple.");
+		JLabel l5= new JLabel("Note : This project is very simple. savvy!");
 		l5.setBounds(100,200,500,30);
 		l5.setForeground(Color.red);
 		JLabel l6= new JLabel(new ImageIcon("images/fax.png"));
