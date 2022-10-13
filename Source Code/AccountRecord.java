@@ -9,7 +9,7 @@ public class AccountRecord extends JFrame implements ActionListener
 {
 	JTextField tf1;
 	JButton b1,b2;
-	String columns[]={"Student ID","First Name","Last Name","Course","Year of pay","Mode of pay","Amount"};
+	String columns[]={"Student ID","First Name","Last Name","Course","Year of payment","Mode of payment","Amount"};
 	TableModel tmodel;
 	JTable jtable;
 	TableRowSorter<TableModel> rsorter;
