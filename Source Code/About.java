@@ -8,7 +8,7 @@ public class About
 	{
 		jd= new JDialog(m);
 		jd.setSize(550,500);
-		jd.setTitle("AboutIMS");
+		jd.setTitle("About Insitute Management System");
 		jd.setIconImage(new ImageIcon("image/logo.png").getImage());
 		jd.setLocationRelativeTo(null);
 		jd.setLayout(null);
@@ -26,7 +26,7 @@ public class About
 		JLabel l3= new JLabel("Only students help.");
 		l3.setBounds(150,100,500,30);
 		l3.setForeground(Color.blue);
-		JLabel l4= new JLabel("Any college project relatives solutions comment now.");
+		JLabel l4= new JLabel("Any college project relatives solutions comment BELOW.");
 		l4.setBounds(2,150,550,30);
 		l4.setForeground(Color.blue);
 		JLabel l5= new JLabel("Note : This project is very simple. savvy!");
