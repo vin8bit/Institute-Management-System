@@ -11,7 +11,7 @@ public class Admission extends JFrame implements ActionListener {
 		JButton submit,reset;
 		String s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20;
 		java.time.LocalDateTime now = java.time.LocalDateTime.now();  
-		java.time.format.DateTimeFormatter format = java.time.format.DateTimeFormatter.ofPattern("dd-MM-yyyy");  
+		java.time.format.DateTimeFormatter format = java.time.format.DateTimeFormatter.ofPattern("DD-MM-YYYY");  
         	String is = now.format(format); 
 		Connection con;
 		Statement stm2;
@@ -42,7 +42,7 @@ public class Admission extends JFrame implements ActionListener {
 
 			//Label
 
-			JLabel toplabel = new JLabel("Admission form");
+			JLabel toplabel = new JLabel("Admission Form");
 			Font font = new Font("Lucida Handwriting",Font.BOLD,26);
 			toplabel.setFont(font);
 			toplabel.setBounds(300,20,300,40);
