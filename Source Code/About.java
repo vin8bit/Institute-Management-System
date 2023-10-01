@@ -23,10 +23,10 @@ public class About
 		JLabel l2= new JLabel("");
 		l2.setBounds(170,100,500,30);
 		l2.setForeground(Color.blue);
-		JLabel l3= new JLabel("Only students help.");
+		JLabel l3= new JLabel("Students help.");
 		l3.setBounds(150,100,500,30);
 		l3.setForeground(Color.blue);
-		JLabel l4= new JLabel("Any college project relatives solutions comment now.");
+		JLabel l4= new JLabel("Any college project relatives solutions comment below.");
 		l4.setBounds(2,150,550,30);
 		l4.setForeground(Color.blue);
 		JLabel l5= new JLabel("Note : This project is very simple.");
